@@ -1,0 +1,14 @@
+.left {
+	background: red;
+	width: 200px;
+	float: left;
+	height: 100px;
+	transition: width 1s;
+
+}
+.right {
+    background: green;
+	width: calc(100% - 100px);
+	height: 100px;
+	display: inline-block;
+}
